@@ -3,6 +3,8 @@ import USFront from '../images/100-american-dollars-banknote-obverse-1.jpg';
 import USBack from '../images/100-american-dollars-banknote-reverse-1.jpg';
 import EuroFront from '../images/200-euros-banknote-second-series-obverse.jpg';
 import EuroBack from '../images/200-euros-banknote-second-series-reverse-433x215.jpg';
+import ChinaFront from '../images/100-chinese-yuan-banknote-mao-type-2015-obverse-2.jpg';
+import ChinaBack from '../images/100-chinese-yuan-banknote-mao-type-2015-reverse-2.jpg';
 import EnglandFront from '../images/bank-of-england-50-pounds-sterling-polymer-banknote-alan-turing-obverse.jpg';
 import EnglandBack from '../images/bank-of-england-50-pounds-sterling-polymer-banknote-alan-turing-reverse.jpg';
 import JapanFront from '../images/10000-japanese-yen-banknote-2004-series-yukichi-fukuzawa-obverse-1.jpg';
@@ -35,6 +37,14 @@ export const banknotes: Banknote[] = [
     denomination: "200",
     frontImage: EuroFront,
     backImage: EuroBack
+  },
+  {
+    id: 4,
+    country: "China",
+    currency: "Chinese Yuan",
+    denomination: "100",
+    frontImage: ChinaFront,
+    backImage: ChinaBack
   },
   {
     id: 5,
