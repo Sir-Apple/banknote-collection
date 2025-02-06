@@ -5,5 +5,4 @@ export interface Banknote {
   denomination: string;
   frontImage: string;
   backImage: string;
-  description: string;
 }

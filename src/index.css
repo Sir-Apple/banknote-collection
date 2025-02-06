@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,5 +19,11 @@
   
   .rotate-y-180 {
     transform: rotateY(180deg);
+  }
+}
+
+@layer base {
+  .iceland-font {
+    font-family: 'Iceland', cursive;
   }
 }

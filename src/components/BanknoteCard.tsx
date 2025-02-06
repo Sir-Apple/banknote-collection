@@ -28,9 +28,9 @@ export const BanknoteCard: React.FC<BanknoteCardProps> = ({ banknote }) => {
                 className="max-w-full max-h-full object-contain"
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4">
-              <h3 className="text-lg font-bold">{banknote.country}</h3>
-              <p className="text-sm">{banknote.denomination} {banknote.currency}</p>
+            <div className="absolute bottom-0 left-0 right-0 text-black p-4">
+              <h3 className="text-2xl font-bold iceland-font">{banknote.country}</h3>
+              <p className="text-lg iceland-font">{banknote.denomination} {banknote.currency}</p>
             </div>
           </div>
         </div>
@@ -45,9 +45,9 @@ export const BanknoteCard: React.FC<BanknoteCardProps> = ({ banknote }) => {
                 className="max-w-full max-h-full object-contain"
               />
             </div>
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4">
+            {/* <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4">
               <p className="text-sm">{banknote.description}</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

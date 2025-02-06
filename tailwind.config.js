@@ -5,6 +5,9 @@ export default {
     extend: {
       rotate: {
         'y-180': 'rotateY(180deg)',
+      },
+      fontFamily: {
+        iceland: ['Iceland', 'cursive'],
       }
     },
   },
