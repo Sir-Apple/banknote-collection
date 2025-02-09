@@ -9,6 +9,8 @@ import EnglandFront from '../images/bank-of-england-50-pounds-sterling-polymer-b
 import EnglandBack from '../images/bank-of-england-50-pounds-sterling-polymer-banknote-alan-turing-reverse.jpg';
 import JapanFront from '../images/10000-japanese-yen-banknote-2004-series-yukichi-fukuzawa-obverse-1.jpg';
 import JapanBack from '../images/10000-japanese-yen-banknote-2004-series-yukichi-fukuzawa-reverse-1.jpg';
+import AustraliaFront from '../images/100-australian-dollars-banknote-dame-nellie-melba-obverse-1.jpg';
+import AustraliaBack from '../images/100-australian-dollars-banknote-dame-nellie-melba-reverse-1.jpg';
 import VietnamFront from '../images/500000-vietnamese-dong-banknote-obverse-1.jpg';
 import VietnamBack from '../images/500000-vietnamese-dong-banknote-reverse-1-433x183.jpg';
 
@@ -53,6 +55,14 @@ export const banknotes: Banknote[] = [
     denomination: "10,000",
     frontImage: JapanFront,
     backImage: JapanBack
+  },
+  {
+    id: 6,
+    country: "Australia",
+    currency: "Australian Dollars",
+    denomination: "100",
+    frontImage: AustraliaFront,
+    backImage: AustraliaBack
   },
   {
     id: 10,
