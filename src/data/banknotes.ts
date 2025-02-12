@@ -11,6 +11,8 @@ import JapanFront from '../images/10000-japanese-yen-banknote-2004-series-yukich
 import JapanBack from '../images/10000-japanese-yen-banknote-2004-series-yukichi-fukuzawa-reverse-1.jpg';
 import AustraliaFront from '../images/100-australian-dollars-banknote-dame-nellie-melba-obverse-1.jpg';
 import AustraliaBack from '../images/100-australian-dollars-banknote-dame-nellie-melba-reverse-1.jpg';
+import CanadaFront from '../images/CAN-100-Front.jpg';
+import CanadaBack from '../images/CAN-100-Back.jpg';
 import VietnamFront from '../images/500000-vietnamese-dong-banknote-obverse-1.jpg';
 import VietnamBack from '../images/500000-vietnamese-dong-banknote-reverse-1-433x183.jpg';
 
@@ -63,6 +65,14 @@ export const banknotes: Banknote[] = [
     denomination: "100",
     frontImage: AustraliaFront,
     backImage: AustraliaBack
+  },
+  {
+    id: 7,
+    country: "Canada",
+    currency: "Canadian Dollars",
+    denomination: "100",
+    frontImage: CanadaFront,
+    backImage: CanadaBack
   },
   {
     id: 10,
