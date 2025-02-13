@@ -13,6 +13,8 @@ import AustraliaFront from '../images/100-australian-dollars-banknote-dame-nelli
 import AustraliaBack from '../images/100-australian-dollars-banknote-dame-nellie-melba-reverse-1.jpg';
 import CanadaFront from '../images/CAN-100-Front.jpg';
 import CanadaBack from '../images/CAN-100-Back.jpg';
+import KoreaFront from '../images/50000-south-korean-won-banknote-2009-issue-obverse-1.jpg';
+import KoreaBack from '../images/50000-south-korean-won-banknote-2009-issue-reverse-1.jpg';
 import VietnamFront from '../images/500000-vietnamese-dong-banknote-obverse-1.jpg';
 import VietnamBack from '../images/500000-vietnamese-dong-banknote-reverse-1-433x183.jpg';
 
@@ -73,6 +75,14 @@ export const banknotes: Banknote[] = [
     denomination: "100",
     frontImage: CanadaFront,
     backImage: CanadaBack
+  },
+  {
+    id: 8,
+    country: "Korea",
+    currency: "Koeran Won",
+    denomination: "50000",
+    frontImage: KoreaFront,
+    backImage: KoreaBack
   },
   {
     id: 10,
