@@ -1,4 +1,16 @@
-# banknote-collection
+# World Banknotes Collection
+Technology used:
+- Vite
+- ReactJS
+- HTML
+- TypeScript
+- Tailwind CSS
+
+## Description
+A small web displays a collection of the highest denomination banknotes from around the world. The collection shows the front and back side of each banknote. The users are able to search the banknote by country name.
+
+## Testing
+View web live here: https://world-banknote-collection.netlify.app/
 
 # React + Vite
 
